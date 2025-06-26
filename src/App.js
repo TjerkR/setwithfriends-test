@@ -21,6 +21,8 @@ import LobbyPage from "./pages/LobbyPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProfilePage from "./pages/ProfilePage";
 import RoomPage from "./pages/RoomPage";
+import CornholeHomePage from "./pages/CornholeHomePage";
+import CornholePage from "./pages/CornholePage";
 import "./styles.css";
 import { darkTheme, lightTheme } from "./themes";
 import { generateColor, generateName } from "./util";
@@ -168,6 +170,8 @@ function App() {
                   <Route path="/conduct" element={<ConductPage />} />
                   <Route path="/donate" element={<DonatePage />} />
                   <Route path="/legal" element={<LegalPage />} />
+                  <Route path="/cornhole" element={<CornholeHomePage />} />
+                  <Route path="/cornhole/:id" element={<CornholePage />} />
                   <Route path="/" element={<LobbyPage />} />
                   <Route path="/room/:id" element={<RoomPage />} />
                   <Route path="/game/:id" element={<GamePage />} />

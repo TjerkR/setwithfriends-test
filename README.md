@@ -19,6 +19,13 @@ more complex or sensitive operations. The frontend was built with
 [React](https://reactjs.org/), with components from
 [Material UI](https://material-ui.com/).
 
+## Cornhole scoreboard
+
+This fork adds a very small scoreboard for playing cornhole. Players create or
+join a match and manually enter scores as they play offline. The first team to
+reach 21 points wins. To try it locally, run the development server and open
+`/cornhole` in your browser.
+
 Code for the frontend is written in JavaScript and located in the `src/` folder,
 while serverless functions are written in TypeScript and located in the
 `functions/` folder.

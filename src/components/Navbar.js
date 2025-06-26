@@ -152,6 +152,9 @@ function Navbar({
             </Typography>
           )}
           <Divider style={{ margin: "8px 0" }} />
+          <MenuItem component={InternalLink} to="/cornhole" onClick={handleCloseMenu}>
+            Cornhole scoreboard
+          </MenuItem>
           <MenuItem
             onClick={() => {
               setChangeName(true);
